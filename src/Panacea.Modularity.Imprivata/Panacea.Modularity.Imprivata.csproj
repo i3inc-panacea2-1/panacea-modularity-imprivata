@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthenticationException.cs" />
+    <Compile Include="AuthenticationResult.cs" />
     <Compile Include="IImprivataPlugin.cs" />
     <Compile Include="PanaceaServicesExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

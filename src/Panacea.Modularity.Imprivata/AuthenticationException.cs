@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Panacea.Modularity.Imprivata
 {
-    public interface IImprivataPlugin : IPlugin
+    public class AuthenticationException : Exception
     {
-        Task<AuthenticationResult> AuthenticateCard(string Code, List<string> ImprivataServers);
+
     }
 }

@@ -8,6 +8,6 @@ namespace Panacea.Modularity.Imprivata
 {
     public interface IImprivataPlugin : IPlugin
     {
-        Task<AuthenticationResult> AuthenticateCard(string Code, List<string> ImprivataServers);
+        Task<AuthenticationResult> AuthenticateCardAsync(string Code, List<string> ImprivataServers);
     }
 }
